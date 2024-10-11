@@ -1,0 +1,218 @@
+.ALABAY_HERITAGE_background{
+    background-image: url("https://s3-alpha-sig.figma.com/img/9ea3/c2a5/258e9acc950cdef2a23e058d05c99fd5?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h2ZtSZMtq87oU-xDZEgfe~ngWhCOn6K6OyHAjIJudqoYE5CadS0MrgBFiNUjZnFDgGRYZD4frEXa~A88lcBxbXniAnwuIRxwExdQSI1TUQqEOFCNGFG9Z~PEgAfUT52-Ax2qY6-LBj42LtVGMC-SkK2O4Cvi6vcfPn5LtuUIYxKipg~rEYw2OnUmQhODIg5rSd8e8WkK3LeJymeG4aKaaqxA7xNVNlTVAOoS~nnxlnFfXtPnL0CEUzupfA-fcicsNsnxYOaHtsKU2DIHEQWZjokx~4Yina8cgwgBTXuo9tFmj3SfuVMrc0ijXfmlH-FUAxhQGz7JDOxteYP5gSxTCg__");
+    background-size: cover;
+    
+    width:100%;
+    background-attachment: fixed;
+    
+}
+.alabay_heritage_sub_bg{
+    width: 100%;
+background-size: cover;
+background: linear-gradient(226.59deg, rgba(24, 23, 28, 0) 17.03%, rgba(24, 23, 28, 0.76) 45.57%, #18171C 81.8%);
+padding-top:20px;
+}
+
+
+.alabay_heritage_head{
+    font-family: 'Baron Kuffner', sans-serif;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 104.38px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 3%;
+    padding-left: 5%;
+    
+ 
+
+}
+.alabay_heritage_span{
+    font-family: "Bebas Neue", sans-serif;
+font-size: 30px;
+font-weight: 400;
+
+letter-spacing: 0.23em;
+text-align: left;
+color: #90FFAE;
+
+
+}
+.alabay_heritage_dis{
+    font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+text-align: left;
+color: #FFFFFF;
+width: 100%;
+padding-left: 5%;
+padding-top: 1%;
+
+
+}
+.alabay_heritage_playButton{
+    width: 220px;
+height: 66px;
+gap: 0px;
+border-radius: 34px ;
+opacity: 0px;
+background: #90FFAE;
+box-shadow: 0px 4px 4px 0px #00000040;
+margin-left: 5%;
+
+}
+.play_button{
+    width: 47.12px;
+height: 47.12px;
+
+opacity: 0px;
+background: #201E26;
+border-radius: 50px;
+margin:5%;
+
+}
+.play_icon{
+    color:white;
+    padding:34%;
+
+}
+.play_dis{
+    font-family: Helvetica;
+font-size: 21.04px;
+font-weight: 700;
+line-height: 22.88px;
+text-align: left;
+color: #201E26;
+margin:11%;
+
+}
+
+
+
+/* Custom Scrollbar for Webkit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px; 
+    /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2); /* Semi-transparent dark background for track */
+    border-radius: 10px; /* Rounded track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7CFFA3; /* Green color for thumb */
+    border-radius: 10px; /* Rounded thumb */
+    border: 2px solid rgba(0, 0, 0, 0.1); /* Space around thumb */
+}
+
+::-webkit-scrollbar-button:single-button {
+    background-color: rgba(0, 0, 0, 0.2); /* Dark color for arrow buttons */
+    border-radius: 10px; /* Rounded button corners */
+    height: 20px; /* Height of the buttons */
+    width: 12px; /* Width to match the scrollbar */
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background: url('up-arrow.png') center no-repeat; /* Custom up arrow icon */
+    background-size: contain;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+    background: url('down-arrow.png') center no-repeat; /* Custom down arrow icon */
+    background-size: contain;
+}
+
+
+
+.preview_game{
+    padding-top: 2%;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 20px;
+  line-height: 78.02px;
+  text-align: left;
+  color: #90FFAE;
+  padding-left: 5%;
+
+  }
+  .span_game_preview{
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 20px;
+    line-height: 78.02px;
+    text-align: left;
+    color:white;
+    
+  }
+  .alabay_heritage_preview_game_images1{
+      height: 200px;
+      width:400px;
+border-radius: 23px;
+border: 2.5px 0px 0px 0px;
+opacity: 0px;
+border: 2.5px solid #FFFFFF;
+margin:1%;
+  }
+  .alabay_heritage_preview_game_images2{
+    height: 200px;
+    width:200px;
+border-radius: 23px;
+border: 2.5px 0px 0px 0px;
+opacity: 0px;
+border: 2.5px solid #FFFFFF;
+margin:1%;
+}
+
+ .alabay_heritage_preview_game_feature{
+    width: 176px;
+    height: 35px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34.79px;
+    text-align: left;
+    color: #90FFAE;
+    padding-left: 5%;
+    margin-top: 5%;
+ }
+ #content {
+    transition: opacity 0.5s ease; /* Smooth transition effect for opacity */
+ }
+
+
+ .feature_para{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 23.92px;
+    text-align: left;
+    color:white;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 20%;
+    
+ }
+ .feature_span_para{
+    font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 23.92px;
+text-align: left;
+color: #90FFAE;
+
+}
+.exit_button{
+    width: 220px;
+    height: 60px;
+    opacity: 0px;
+    background:white;
+    border-radius: 50px;
+    margin:5%;  
+    font-weight: bold;
+    font-size: 20px;
+    border-style: none;
+   
+}

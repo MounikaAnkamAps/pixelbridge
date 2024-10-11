@@ -1,0 +1,1135 @@
+.pixel-home-bg{
+    background-image: url("https://s3-alpha-sig.figma.com/img/6648/fff9/2dd3d3ca2ea2c2dede710d01d49c2ad1?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=frX1perr8lzVpKE3hjUCS-dcXyObiNPO8tcZCbClKqLDINm1Pz~igFj831~PLFMVfGBgysaBS5yJ2rPQg5OoNH73rx9ie0i34EqyvwTfW4kkqHbiDfrOOW70DyHWO3lN3GQfR5BaFw-UF0GiO6OKlh87DNPPUGElcqovXPzeaWEyvH0bPUtMYal-tzHVsMsGXETo9-EAO96PdJdcpFVHNE67BkjEbLMtreRyyxco4y2I3WrEq9oH16I7JAXU-778wQnCv1B~suxb~wu37rK0eF1jAhnLVLT0R71aN-LkCgmhTGxMx4NWStlUPD8pQvRXKcpdk8CQVd1JJ4rKIW5v5g__");
+    background-size: cover;
+    height: 100vh;
+    width:100%
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    
+    font-family: 'cheeseburger';
+
+    color: #7EFF5E;
+    
+    text-align: center;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow:   0px -2px 0 #212121,  
+                   0px -2px 0 #212121,
+                   0px  2px 0 #212121,
+                   0px  2px 0 #212121,
+                  -2px  0px 0 #212121,  
+                   6px  0px 0 #212121,
+                  -6px  0px 0 #212121,
+                   6px  0px 0 #212121,
+                  -6px -6px 0 #212121,  
+                   6px -6px 0 #212121,
+                  -6px  6px 0 #212121,
+                   6px  6px 0 #212121,
+                  -6px  18px 0 #212121,
+                   0px  18px 0 #212121,
+                   6px  18px 0 #212121,
+                   0 19px 1px rgba(0,0,0,.1),
+                   0 0 6px rgba(0,0,0,.1),
+                   0 6px 3px rgba(0,0,0,.3),
+                   0 12px 6px rgba(0,0,0,.2),
+                   0 18px 18px rgba(0,0,0,.25),
+                   0 24px 24px rgba(0,0,0,.2),
+                   0 36px 36px rgba(0,0,0,.15);
+  }
+.para1bg{
+ background: #181C27;
+    margin-top: 19.5%;
+    width: 100%;
+    height: 195px;
+    top: 656px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+}
+
+  .para1{
+    width: 100%;
+    height: 238px;
+    top: 660px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: "cheeseburger";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65.47px;
+    text-align: center;
+    color:#FFFFFF;
+    ;
+
+    
+  }
+  .spanEl{
+      font-family: "cheeseburger";
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 65.47px;
+        text-align: center;
+        background: linear-gradient(180deg, #FFF280 8.61%, #FFA800 36.76%);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        }
+
+.bottom_bar{
+margin-top: 5%;
+    width: 100%;
+height: 1184.95px;
+top: -247.32px;
+left: 34.26px;
+gap: 0px;
+border-radius: 40px 0px 0px 0px;
+opacity: 0px;
+angle: -8 deg;
+background: radial-gradient(42.38% 44.19% at 50.14% 67.33%, #FFF280 0%, #FFC700 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+
+}
+.sub_line{
+   
+    width: 150px;
+    height: 10px;
+    border-radius: 15px;
+    border: 10px solid #FFF6A1;
+    
+    text-align: center;
+    
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+   
+  }
+  
+  /* Action card initially only shows the icon */
+  .action-card {
+    position:fixed;
+    bottom: 0; /* Show the drag area (icon) at the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 97%;
+    
+     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    
+    
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    transition: bottom 4s ease;
+  }
+  
+  /* Only the icon visible at the bottom */
+  .drag-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    cursor: pointer;
+   
+    background-color: #FFC700; /* Make sure the drag area is visible */
+    border-radius: 25px 25px 0 0;
+  
+  }
+  
+  .drag-handle {
+    width: 150px;
+    height: 15px;
+    background-color: #FFF280;
+    color:transparent;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+
+  }
+  
+  .drag-handle i {
+    font-size: 24px;
+  }
+  
+  /* Initially hide the card content */
+  .card-content {
+    background: radial-gradient(42.38% 44.19% at 50.14% 67.33%, #FFF280 0%, #FFC700 100%);
+    background-size: cover;
+    height: 10px;
+    display: none;
+  }
+  
+  .scrollable-content {
+    height: calc(100vh - 150px); /* Limit the height to allow scrolling */
+    overflow-y: scroll; /* Add vertical scrolling */
+    
+    scrollbar-width:thin; /* For Firefox: make the scrollbar thin */
+    scrollbar-color:rgb(115, 114, 114) transparent; 
+   /* For Firefox: thin line style */
+  }
+  
+  /* For WebKit-based browsers (Chrome, Safari, Edge) */
+  .scrollable-content::-webkit-scrollbar {
+    width: 1px; /* Set the width of the scrollbar to 2px */
+  }
+  
+  
+  
+  .single_dog_img{
+    width: 550px;
+    height: 500px;
+    padding-left:5% ;
+    margin-top: 10%;
+    
+  }
+  
+  .reflection_1 {
+    width: 520px;
+    height: 500px;/* Reduced height to show only the legs */
+      background-image: url('https://s3-alpha-sig.figma.com/img/0581/9154/369b463b9efe66ff3c4aa09e02e1bb96?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bLaAfyFvOKQOPYR4MJ-HmXTBaFOssESygmS16Mug~6sWnba2SFTKQkFEOgdh7-Onz1yc35l0oyGFQeaTcw5Uu94~RKOzYGwfGSxs7tK8EjxogLDMZ3J6qpQ-BRo3AjJut9zQIq8Bet05A7ApMliZYUvNDLxOdq31PRprZs1HZL7DYCxp3JOqwNnt9F41UqWl56DiWu-FGyG42uAqiGMaSs2yAUQDNbKJVE6-nqSMUbnfZDU2Op4~yyKHXsn9CGjb3eMc9URJdhPETmkFKbLE6AWenpoQ2l5iufLL6GZx7wQ16gK5l4wCl-8Yk9fyJmXt9Snhpi2SNkq~xXLwgvWTuA__');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center bottom; /* Center horizontally and align bottom */
+      transform: scaleY(-1); /* Flip vertically */
+      filter: grayscale(50%) brightness(0.5); /* Black and white shadow effect */
+      opacity: 0.1; /* Slight transparency for the shadow */
+      
+      margin-top: -30%;
+  }
+  .single_dog_head{
+      
+   
+    font-family: "Montserrat";
+    font-size: 80.05px;
+    font-weight: 900;
+   
+    text-align: right;
+    color:rgb(245, 127, 8);
+    margin-right: 10%;
+    
+
+
+  }
+  .single_dog_span{
+    font-family: "cheeseburger";
+    font-size: 220px;
+    font-weight: 400;
+    line-height: 200px;
+    text-align: right;
+    color: white;
+  
+  }
+  .History_of_alaby{
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48.18px;
+    text-align: right;
+    margin-right: 10%;
+    color: #353535;
+    
+  
+  }
+  .second_page_bg{
+   
+    height: cover;
+    background: #FFFFFF;
+    padding-top: 20%;
+    padding-bottom: 12%;
+    clip-path: polygon(0% 0%, 100% 30%, 100% 100%, 0% 100%);
+    
+  }
+  .all{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 900;
+    color: #353535;
+    padding-right: 2%;
+    
+  
+  }
+  .photos{
+    color: #FFA800;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 900;
+    padding-right: 2%;
+
+  }
+  .photos_corosul{
+    width: 300px;
+  height: 310px;
+  gap: 0px;
+  border-radius: 30px 30px 30px 30px;
+  opacity: 0px;
+  background: #A6A6A6;
+  
+
+  }
+  .photo_1{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 33.51px;
+    text-align: center;
+    color: #000000;
+    padding-top:50%;
+
+
+  }
+  
+
+  .cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    
+  }
+  
+
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color:black; /* Set background similar to your image */
+    
+    align-items: center;
+    justify-content: center;
+    
+    height: 10px;
+  
+    
+    box-shadow: 8px 9px 19px 0px #000000A6;
+/* Add shadow effect */
+}
+
+/* Prev Icon (Left Arrow) */
+.carousel-control-prev-icon::before {
+    content: '←'; /* Unicode left arrow for cleaner look */
+    font-size: 30px; /* Adjust size of arrow */
+    padding:10px;
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+/* Next Icon (Right Arrow) */
+.carousel-control-next-icon::before {
+    content: '→'; /* Unicode right arrow for cleaner look */
+    font-size: 30px; /* Adjust size of arrow */
+    padding:10px;
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+} 
+
+
+.project_vision{
+ 
+  line-height:  230.41px;
+  height: 200px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: "cheeseburger";
+  font-size: 200px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFA800;
+
+
+
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  background: linear-gradient(180deg, #ffe041 0%, #ff6700 100%);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+ 
+  text-align: center;
+}
+
+.project-vision-section{
+ 
+  background: linear-gradient(160deg, white, white 40%, #FFF280 0%,#FFC700 100%, white);
+
+  /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-size: cover;
+ 
+}
+
+
+.dog-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.group_discription{
+  width: 95%;
+  margin-top: -23px;
+  color: #353535;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: Kumbh Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 50.27px;
+  text-align: center;
+  
+
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center both images horizontally */
+  position: relative;
+}
+
+.reflection_2 {
+  width: 100%; /* Adjust the width as per your needs */
+    height: 200px; /* Reduced height to show only the legs */
+    background-image: url('https://s3-alpha-sig.figma.com/img/3a9f/0641/74f33d37d4f4ac9264a4163ac6abf312?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HbKXc8JxAVJbiOxtr8pWSJGj1IXYNyH2I22LIeU6d8tvKxJnFfYUWOkdk79-xZQswrvT7AB8ZCi~22iLiXgmEHLWki9lsdDibPQpWZLHhlZQnrN61TEUXVWvYd6D6D0IwjxGi1BC3KNHcwzesy6CdofkRn56JVvIl8qPvw4ggDs5FBu8a5vx0I-3s7y--FmUIJlw6T6bk4g0RR1nDsg8D6xwNGeOhDlFag~2dMu-btACBi2SbefEWX9fzEdQ3bcPhvJTkO0L1BRe5FjH7JGYixScOeFOvvP7kfflEjHmUuASgo8yXHPiPgtlScIF9KMlN7nYUODNjfUAnzjnLxW~eA__');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom; /* Center horizontally and align bottom */
+    transform: scaleY(-1); /* Flip vertically */
+    filter: grayscale(50%) brightness(0.5); /* Black and white shadow effect */
+    opacity: 0.1; /* Slight transparency for the shadow */
+    
+    margin-top: -7%;
+}
+
+.road_map{
+  width: 998px;
+  height: 233px;
+  margin-top: 10%;
+  margin-left: -200px;
+  font-family: "cheeseburger";
+  font-size: 200px;
+  font-weight: 400;
+  color: #FFFFFF;
+  
+
+}
+.road_map_bg{
+  
+  
+  background: -webkit-linear-gradient(-100deg,#FFCC00 25%, white 0%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  padding-bottom: 20%;
+  background-size: cover;
+
+}
+.road_map_dis_con{
+  width: 500px;
+height: 684px;
+top: 4217px;
+left: 129px;
+gap: 0px;
+opacity: 0px;
+margin-left: 10%;
+padding-top: 8%;
+
+}
+.road_map_dis{
+  font-family: Kumbh Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 57.05px;
+  text-align: left;
+  color: #353535;
+
+
+  
+}
+.road_map_span{
+  font-family: Kumbh Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 57.05px;
+  text-align: left;
+  color: #FFA800;
+
+
+  
+}
+.road_map_img{
+  height: 670px;
+  width:100%;
+}
+.reflection_3{
+  width: 100%; /* Adjust the width as per your needs */
+    height: 200px; /* Reduced height to show only the legs */
+    background-image: url('https://s3-alpha-sig.figma.com/img/8af3/96f7/cd09a6d1e8a5d28e3a24eba452812d8b?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fjKSV4uCQou3FGFxsFLF7kje-YRwUzpEa8T8E6GesiY9BMm8TTTfE~8wAGfsPkbYJSDeOpOoc89lpGsjGlPlQAU7BSxDMuIkFPwU8QDFSOpEqPG4f5LEItiLCzun9Op7AuDyz5~X~QuvjMD363KIwd3KOYMtX8YEI9ul0NHc~viKeQDz2TJJbxjnbgf4~O~VbhaRGIvaWel2M3bgdF6-dyaIhcbbhbQ~endNfyxiZO1kGoUGeQ0HUuFvHFS-8rL9BuHkVeRAFc1okw80Xgh1sMtWaWANnxACPVJFPrbkcH0KcuDsMuaTAHvs5qWI8G2kBzNDbthXgTN3icMlt1Z7CA__');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom; /* Center horizontally and align bottom */
+    transform: scaleY(-1); /* Flip vertically */
+    filter: grayscale(50%) brightness(0.5); /* Black and white shadow effect */
+    opacity: 0.1; /* Slight transparency for the shadow */
+    
+    margin-top: -12%;
+}
+.card1{
+  border-top-left-radius: 25px;
+  text-align: center;
+  width: 300px;
+  height: 650px;
+  top: -2px;
+  gap: 0px;
+  margin: 0.5%;
+  margin-top: 0px;
+  opacity: 0px;
+  background: linear-gradient(180deg, #DBC70C 0%, rgba(255, 242, 128, 0) 100%);
+}
+.card1_para{
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 48.76px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 20px;
+}
+.card1_span_para{
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 39.01px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.card1_img{
+  height: 400px;
+  width:300px
+}
+
+.card2{
+  margin: 0.5%;
+  margin-top: 0px;
+  text-align: center;
+  width: 300px;
+  height: 650px;
+  top: -2px;
+  gap: 0px;
+  opacity: 0px;
+  background: linear-gradient(180deg, #00D4D4 0%, rgba(65, 255, 255, 0) 100%);
+
+}
+.card3{
+  margin: 0.5%;
+  margin-top: 0px;
+  text-align: center;
+  width: 300px;
+  height: 650px;
+  top: -2px;
+  gap: 0px;
+  opacity: 0px;
+  background: linear-gradient(180deg, #D427FF 0%, rgba(212, 39, 255, 0) 100%);
+
+}
+.card4{
+  border-top-right-radius: 25px;
+  margin: 0.5%;
+  margin-top: 0px;
+  text-align: center;
+  width: 300px;
+  height: 650px;
+  top: -2px;
+  gap: 0px;
+  opacity: 0px;
+  background: linear-gradient(179.53deg, #8F3A3C 0.41%, rgba(143, 58, 60, 0) 95.85%);
+
+}
+.card3_img{
+  width: 320px;
+  height: 400px;
+}
+.card4_img{
+  width: 360px;
+  height: 400px;
+  text-align: center;
+}
+
+.TOKENOMICS-section{
+
+
+  
+  width: 100%; /* Adjust width if necessary */
+  background-size: cover;
+  width: 100%;
+  
+  padding-bottom: 20%;
+  
+  
+  
+}
+
+.TOKENOMICS_head{
+  width: 1177px;
+  height: 300px;
+  
+  left: 60px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "cheeseburger";
+  font-size: 160px;
+  font-weight: 400;
+  margin-top: -5%;
+  text-align: left;
+  color: #FFFFFF;
+  padding-left: 6%;
+  
+}
+.tax_card1{
+  width: 400px;
+  height: 100px;
+  
+  margin-left: 4%;
+  border-radius: 35px 35px 35px 35px;
+  
+  background: #353535;
+  box-shadow: 16.62px 20.12px 35.77px 0px #A87D29;
+}
+.tax_card_para{
+  width: 225px;
+height: 50px;
+top: 28.86px;
+left: 76.97px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 25px;
+font-weight: 900;
+line-height: 50.11px;
+text-align: left;
+color: #FFFFFF;
+padding-left:8%;
+
+}
+.tax_card_para2{
+  width: 325px;
+height: 89px;
+
+left: 74.35px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 900;
+margin-top: -6%;
+text-align: left;
+color: #FFF280;
+padding-left:8%;
+
+}
+.all_tax_cards{
+  margin-top: -5%;
+  padding-left: 6%;
+}
+.tax_img{
+  height: 600px;
+  width: 650px;
+  margin-top: -20%;
+  padding-left: 5%;
+}
+.reflection_4{
+  width: 100%; /* Adjust the width as per your needs */
+    height: 200px; /* Reduced height to show only the legs */
+    background-image: url('https://s3-alpha-sig.figma.com/img/03cd/4b54/f7b2756e20fd95b3b5f1eb746ece4610?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eevplk66bZzukgdgsIQfeVhiy7-gZcGK8Izvqu9NG92SSBLlIGeTgves80hfHWjC0weelLWpdva9M1QwzojGArCu0pNhcfCP1bWmhQjfyZ618DppeDSqLOUK1u0ihUtWBn8LGJUIstN6HScTvnEpuTyBakr1BrrKzDf7h912RqV4nfhy8QqpTgU~iVyacoiAp4KPKzGxVtt90cD1O2kDIO93bCsOcw6g~Zw0F7gu7TA0SsvENM4wk3UDCqhq~lJS07l9PouI6B3f7zIqcszsNZ0wzLp9tTGrQB1-rjs-Om5-ASaLUP1w236QKWUeqIBJOlvP22TFjW34X2F2N1OirA__');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom; /* Center horizontally and align bottom */
+    transform: scaleY(-1); /* Flip vertically */
+    filter: grayscale(50%) brightness(0.5); /* Black and white shadow effect */
+    opacity: 0.1; /* Slight transparency for the shadow */
+    margin-top: -25%;
+}
+.merchandise_bg{
+  background: linear-gradient(to right, #FFD700, #FFF280);
+  margin-top: -40%;
+  background-image: linear-gradient(10deg, white 77%, transparent 50%);
+  background-size: cover;
+  height: 200vh;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  text-align: center;
+  
+}
+.merchandise_head{
+  width: 1292px;
+height: 300px;
+top: 7617px;
+
+gap: 0px;
+opacity: 0px;
+font-family:"cheeseburger";
+font-size: 180px;
+font-weight: 400;
+line-height: 300.08px;
+text-align: center;
+color: #FFA800;
+padding-top:22%;
+padding-bottom:20%;
+}
+.shopping_imgs1{
+  background-image: url('https://s3-alpha-sig.figma.com/img/edce/29c2/b86c0256af15ca0c6c5763472967414e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n97rDZz99z~z0TsM9ew~HKxrFBQ-ElJAqZBXDwYAM6mt5YW~xigH-oCusCRoPZluIH8K3qYxWylfwWqpzQ3n~Wuj3OLE6QRqcc4OgqHTFUWsO1I8VOznfUCk5v6IT~lISOuRr8wbUltYQLtfzXbd1kW175XTfLXythQTh5G~dN36Vh7q0Q0VJRj3YQPMYNkTwNDYgzlmsvzNCXOlZJgYvBPlLI7yaPGv2r1JrZgbyKsUf3fm2ERhnG-S0iAwogINEauE3k5qNI6K3ZDM6vcP6~kxd99Jf6AA7qXPNY3MKiQEZsAfDBpKe2PxNCAzMh1E2qysd1pGrDZu4FRWMSmByA__');
+  background-size: cover;
+  height:100vh;
+  width:90%;
+  padding-right:10%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 50%;
+  
+}
+.shopping_imgs2{
+  background-image: url('https://s3-alpha-sig.figma.com/img/7509/2c42/0295b873bfefd869e0278c7a23fda692?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X8TbJ4BDNgaBg4hy-OuXPW0RLjixq427h-RpfK7JLXe6zYyjy1uanOl5chg61Tpj2IVj6Wkt~gE6Bw-To4i0WARRUnvbnELe8aRKRHeZpBYkJcRSvEbGB2VWNW-Pg~jfhfwEzc~gQLLV58B-6p6A-A1EQtl6VZKSxIl9AWpWtx9h89Jjlvh65ZIBucwKGkbDjK7cc0-4DRrGw3n4CTT5wZFrItG9Bes1nhSXV~6CwXzvrZCqgG-wsdCTawyXrZmzIjYeSmo3txEKJvNclPn~LEvxUQm-FrQNXrgJGqjB8b5f1ldYouZ5KTb6GIEHW7oVEXfm5KKmReak8N6B0413NA__');
+  background-size: cover;
+  height:100vh;
+  width:90%;
+  padding-right:10%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 50%;
+  
+}
+.shopping_imgs3{
+  background-image: url('https://s3-alpha-sig.figma.com/img/fc76/6d8d/8b344d796e5a7f49ab6712d0d329037f?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=STO5E3ivRqf3-N4h0n2uX2vFbwdsUxMtqH7lFi0zVE0pF3HLAH4RhEePPE0r0--vyscE~MTo1MfTrVw9seS41KoiyKjOp-BRmdyTnnEXP-KPXDHhDcKdBy~EkuqS~2SGUcvCdXKUnzCPpvH~5Qy57ibsk34v1t8G8r4qrG1t0KpjB92xMPp7vDFWIY627CadL4g~f5qMsl60w0SSN8h9WdXmRaeDO4k0vWLrjjpHR5UQuR7d2z4nw~pltfqKEVItSKkZRhbG2ZHawi5kdlI2HOVIV4A3vvmM3PYzrbDecHuMP5oz7kSUGmlenzkNqY~pP~bbHu~vTZwpnBhnG1ASZQ__');
+  background-size: cover;
+  height:100vh;
+  width:90%;
+  padding-right:10%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 50%;
+  
+}
+.shopping_imgs4{
+  background-image: url('https://s3-alpha-sig.figma.com/img/eafa/fb0c/20d274e8c38d04ea7420452643e06eb7?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=id2enPMUMa9XY5avmFhQaBQdhUixLMiiwMumW~KVgyqNpRJWqTnN8N-mbDtaRup0l5m3XJ~CO4ic8rkQ3ApGUmNxsnPeu-APPx5O6IDmVLExiw6TrXQTm5V2bW6AyUbPmTgJSLGt4nGf20X4FTKWDXHMwZNON5ldEsdMYiKpQ58qmrPYWwb4uZgbaxVdRCpb52UEqsebX7e0tRtVSmE6BBByb736Vs0a7poYB20DqmmT0GRnfE8pwkPmEfDluVjlfqwSiprT8UXInSZqyPxK73afUbGlVv~oSkxgIcKlqFFa7KAYsxo0BT04IMAhTxVOW1rDYyYu8XvIKiBuLIZ0dQ__');
+  background-size: cover;
+  height:100vh;
+  width:90%;
+  padding-right:10%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 50%;
+  
+}
+
+.shopping_sub_img{
+  text-align: center;
+  height: 800px;
+  padding-left:15%;
+  width:100%;
+}
+
+.games_bg{
+  margin-top: -10%;
+  padding-top: -20%;
+}
+.games_head{
+  width: 100%;
+  height: 300px;
+  top: 9530px;
+  
+  gap: 0px;
+  opacity: 0px;
+  font-family:"cheeseburger";
+font-size: 220px;
+font-weight: 400;
+line-height: 300.08px;
+text-align: center;
+color: #FFFFFF;
+}
+.games_para{
+  width: 100%;
+height: 78px;
+top: 9830px;
+
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 55px;
+font-weight: 900;
+margin-top: -5%;
+margin-bottom: 10%;
+text-align: center;
+color: #353535;
+
+}
+.entire_bottom_bg{
+  background-color: white;
+ 
+  background-size:cover ;
+  
+  margin-top:-15%;
+  
+  
+}
+
+.carousel_game_img1{
+  background-image:url('https://s3-alpha-sig.figma.com/img/17ad/b147/27a80e9f26b1592e8f58588da90159bc?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UFuKumYsUeZsSWFb~Jen5kYxXglroCLa57Ac1lebJwyA8V9wguPeoZsGx-UgQp-XTJk5YBjlt~j-9mOO~adK1EwjN4pIf9Oh4j-2KgpsNkpaUAiPtbMXH~LyY67FL9GSnJDCP31C4gPGrvDjUWC27cgmLncTevMQZrFKobjRzAWGhPsZHCT-yTUH~FhIby8dOONu9u3-dXngof7GrAmD0lfZRnzE6DA2UivoL9wBafQNf8oU7aL~TiYQo72y9jmyfjqhi8ANq0lX~zVh-awjSVfWdp9e9mr4IAXEbGNrvTelrzeIR9YVLqt4uKKOCVEOWCrRT34iIops7e7MpyPgEg__');
+  background-size: cover;
+  height: 100vh;
+  width:96%;
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+.discover_button_blue{
+width: 200px;
+height: 60px;
+gap: 0px;
+border-style: none;
+border-radius:50px;
+opacity: 0px;
+background: #843AFC;
+box-shadow: 12px 11px 11.3px 0px #0000009C;
+margin-top: 50%;
+color:white;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 900;
+line-height: 41.89px;
+text-align: center;
+
+
+}
+.arrow_but1{
+  width: 51px;
+height: 0px;
+top: 56px;
+left: 346px;
+gap: 0px;
+border: 7px 0px 0px 0px;
+opacity: 0px;
+border: 7px #FFFFFF;
+padding: 5px;
+}
+
+
+
+.carousel_game_img2{
+  background-image:url('https://s3-alpha-sig.figma.com/img/9ea3/c2a5/258e9acc950cdef2a23e058d05c99fd5?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h2ZtSZMtq87oU-xDZEgfe~ngWhCOn6K6OyHAjIJudqoYE5CadS0MrgBFiNUjZnFDgGRYZD4frEXa~A88lcBxbXniAnwuIRxwExdQSI1TUQqEOFCNGFG9Z~PEgAfUT52-Ax2qY6-LBj42LtVGMC-SkK2O4Cvi6vcfPn5LtuUIYxKipg~rEYw2OnUmQhODIg5rSd8e8WkK3LeJymeG4aKaaqxA7xNVNlTVAOoS~nnxlnFfXtPnL0CEUzupfA-fcicsNsnxYOaHtsKU2DIHEQWZjokx~4Yina8cgwgBTXuo9tFmj3SfuVMrc0ijXfmlH-FUAxhQGz7JDOxteYP5gSxTCg__');
+  background-size: cover;
+  height: 100vh;
+  width:96%;
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+.discover_button_green{
+width: 200px;
+height: 60px;
+gap: 0px;
+border-style: none;
+border-radius:50px;
+opacity: 0px;
+background: #45D689;
+box-shadow: 12px 11px 11.3px 0px #0000009C;
+margin-top: 50%;
+color:white;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 900;
+line-height: 41.89px;
+text-align: center;
+
+
+}
+.arrow_but2{
+  width: 51px;
+height: 0px;
+top: 56px;
+left: 346px;
+gap: 0px;
+border: 7px 0px 0px 0px;
+opacity: 0px;
+border: 7px #FFFFFF;
+padding: 5px;
+}
+.game_previews{
+  padding-top: 20%;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 78.02px;
+  text-align: left;
+  color: #FFA800;
+
+}
+.span_game_preview{
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 78.02px;
+  text-align: left;
+  color: #353535;
+  
+}
+.game_preview_cards{
+  width: 390px;
+height: 390px;
+gap: 0px;
+border-radius: 27.17px;
+opacity: 0px;
+padding:20px;
+
+}
+.button_card{
+  width: 50px;
+height: 80px;
+gap: 0px;
+border-radius: 23px ;
+opacity: 0px;
+background: #353535;
+box-shadow: 8px 9px 19px 0px #000000A6;
+margin-top: 10%;
+
+}
+.arrow_but2{
+  
+color: #FFFFFF;
+font-weight: bold;
+font-size: 30px;
+text-align: center;
+padding-top: 50%;
+}
+.social_media_links_h{
+     padding-top:20%;
+     width:80%;
+font-family: 'cheeseburger';
+font-size: 190px;
+font-weight: 400;
+color: #FFA800;
+}
+.social_media_links_card{
+  width: 500px;
+height: 300px;
+gap: 0px;
+border: 13px 0px 0px 0px;
+opacity: 0px;
+padding-bottom: 23%;
+border: 13px solid #0553C8A8;
+box-shadow: 15px 15px 34.3px 0px #0000005E;
+
+background: linear-gradient(145deg, #4f90f8, #62b4ff); /* Light blue gradient */
+  border-radius: 20px; /* Rounded corners */
+  
+  position: relative;
+  
+
+  /* Clip-path to cut the top-right corner */
+  clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 0 100%);
+  margin-top: 10%;
+
+}
+
+.twitter_card{
+  width: 70px;
+height: 70px;
+gap: 0px;
+opacity: 0px;
+background: #353535;
+border-radius: 50%;
+margin-top: 13%;
+}
+.twitter_icon{
+  color:white;
+  font-size: 35px;
+  padding: 26%;
+  
+}
+.twitter_dis{
+  width: 264px;
+height: 49px;
+top: 124px;
+left: 195px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 900;
+line-height: 48.76px;
+text-align: left;
+color: #FFFFFF;
+margin-top: 14%;
+margin-left: 5%;
+
+}
+.social_media_img{
+     height: 550px;
+     width: 550px; 
+     margin-left: 10%;
+}
+.reflection_5{
+  width: 100%; /* Adjust the width as per your needs */
+  height: 200px; /* Reduced height to show only the legs */
+  background-image: url('https://s3-alpha-sig.figma.com/img/7680/b979/42ce0194fad0103bd91118827f9b094b?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S2utOL5oWIkouIti8V4osia8GpVtQu8mEO7uqRJTQh8jvsJLj11zhqyyIBN0Oa3sznHZB4WH6zdmoy6FzBi~IoEQMdFm-iM8K8soSF3DVjjRAkCz1lynt49pPiP4uL6Bg-Z10csaYjccXd7yvB-00aQOQb831JPMA-1-BRcAyrBQwHSEpSZuVTBNyTgLUGoAqMPqHzwHhxk5YOlXESGEUxf~f5TwuIyhTxSXoFPuuDXrMRmorC7BDKfARGoDS0ceztcQ-zDcEeau2Z7xWg3NUnjzwUm0t7mYgwsDqsm7CpX804HlYkhUC1O~i8xdrSSYSGwR8-d3ttDlaOmpr40xaw__');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom; /* Center horizontally and align bottom */
+  transform: scaleY(-1); /* Flip vertically */
+  filter: grayscale(50%) brightness(0.5); /* Black and white shadow effect */
+  opacity: 0.1; /* Slight transparency for the shadow */
+  margin-top: -6%;
+  margin-left: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+/* Default styles for desktop */
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .heading {
+      font-size: 40px; /* Adjusted font size for mobile */
+      text-align: center; /* Center align text on mobile */
+  }
+
+  .para1 {
+      font-size: 14px; /* Adjusted font size for mobile */
+      padding: 0 10px;
+      text-align: justify;
+  }
+
+  .single_dog_img {
+      width: 100%; /* Make image responsive */
+      height: auto;
+  }
+
+  .single_dog_head {
+      font-size: 20px;
+  }
+
+  .History_of_alaby {
+      font-size: 14px;
+  }
+
+  .action-card {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+
+  .drag-handle {
+      font-size: 18px;
+  }
+
+  .reflection_1, .reflection_2, .reflection_3 {
+      display: none; /* Hide reflections on smaller screens */
+  }
+
+  /* Carousel */
+  .carousel-inner {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .carousel-item .m-3 {
+      margin: 10px 0;
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+      display: none; /* Hide carousel controls on mobile */
+  }
+
+  .project_vision {
+      font-size: 18px;
+      text-align: center;
+  }
+
+  .road_map_dis {
+      font-size: 14px;
+  }
+
+  /* Adjust card size for mobile */
+  .card1, .card2, .card3, .card4 {
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .tax_img {
+      width: 100%;
+      height: auto;
+  }
+
+  .TOKENOMICS_head {
+      font-size: 24px;
+      text-align: center;
+  }
+
+  .tax_card_para {
+      font-size: 16px;
+      text-align: center;
+  }
+
+  .tax_card_para2 {
+      font-size: 12px;
+  }
+}
